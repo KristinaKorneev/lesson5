@@ -1,0 +1,147 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+.block a{
+	display: inline-block;
+	max-width: 350px;
+	margin: 20px;
+	text-decoration: underline;
+	color: rgb(153, 26, 111);
+}
+.block{
+	text-align: center; 	
+}
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&display=swap');
+
+
+/* ========================================================== */
+body{
+	margin: 0 auto;
+	font-style: 14px;
+	font-family: 'Balsamiq Sans', cursive;
+	max-width: 900px;
+	
+
+}
+nav{
+	text-align: center;
+}
+nav li{
+	display: inline-block;
+	margin: 30px 30px 30px 10px;
+	
+	
+}
+nav a{
+	color: rgb(19, 63, 114);
+}
+.sotial{
+display: inline-block;
+margin-bottom: 40px;
+}  
+.ower span{
+	display: inline-block;
+	margin: 0px 30px 0px 0px;
+} 
+.ower{
+	text-align: center;
+	color:rgb(39, 54, 61);
+}
+h1{
+	font-size: 20px;
+	font-weight: 700;
+	margin: 0px 0px 20px 0px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 40px auto;
+	text-align: center;
+	text-shadow: 1px -1px 5px rgb(46, 51, 51);
+	min-width: 600px;
+}
+.leim img{
+	display: block;
+	margin: 0px auto;
+	width: 100%;
+
+}
+p{
+	margin: 0px 0px 15px 0px;
+	line-height: 1.5;
+	text-indent: 50px;
+	text-align: justify;
+}
+main{
+	margin-bottom: 90px;
+}
+footer{
+	min-width: 1200px;
+	margin: 0 auto;
+}
+.sent{
+	font-family: 'Alegreya', serif;
+	font-style: italic;
+	display: inline-block;
+	width: 200px;
+	margin: 0px 50px 90px 0px;
+	height: 200px;
+	overflow: auto;
+}
+.sent li{
+	margin: 0px 0px 12px 0px;
+}
+.sent a{
+	color: rgb(19, 63, 114);
+	
+
+}
+
+.sent h2{
+	margin-left: 10px;
+	font-weight: 700;
+	margin-bottom: 15px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	text-shadow: 1px -1px 3px rgb(46, 51, 51);
+}
+.wite{
+	color:rgb(255, 123, 0);
+	font-size: 20px;
+	text-align: right;
+	text-shadow: 1px -1px 3px #000;
+}
